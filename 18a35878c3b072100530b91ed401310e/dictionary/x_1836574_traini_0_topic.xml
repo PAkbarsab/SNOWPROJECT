@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b3459cf8c3b072100530b91ed401313d" label="Topic" max_length="40" name="x_1836574_traini_0_topic" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="topic body" max_length="40" name="topic_body" type="string"/>
+        <element label="referene" max_length="32" name="referene" reference="x_1836574_traini_0_unit" type="reference"/>
+        <index name="index">
+            <element name="referene"/>
+        </index>
+    </element>
+</database>
